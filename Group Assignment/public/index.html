@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Anatomy Explorer</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        #info { position: absolute; top: 10px; left: 10px; color: white; font-family: Arial, sans-serif; background: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px; }
+        #tooltip { position: absolute; color: white; background: rgba(0, 0, 0, 0.8); padding: 5px; border-radius: 3px; display: none; }
+    </style>
+</head>
+<body>
+    <div id="info">Click an organ to focus and view details. Use WASD to move camera. Press R to reset.</div>
+    <div id="tooltip"></div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
